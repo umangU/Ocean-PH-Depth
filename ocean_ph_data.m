@@ -8,8 +8,8 @@ date = data{2};
 ph = data{3};
 pressure = data{4};
 subplot(2,1,1)
-%plot(date,ph)
-%xlabel('Date');
+% plot(date,ph)
+% xlabel('Date');
 % ylabel('pH Reading');
 
 
