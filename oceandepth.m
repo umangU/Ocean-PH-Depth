@@ -1,4 +1,4 @@
-%function for pH data
+% function for pH data
 function [outDate1,outpH1,outDate2,outpH2,outDate3,outpH3] = oceandepth(date, ph, pressure,min_depth,max_depth)
     for i=1:length(pressure)
         if (pressure(i) >= min_depth(1) && pressure(i) < max_depth(1))
